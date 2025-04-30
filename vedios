@@ -1,0 +1,35 @@
+#vedios
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vedio </title>
+<style>
+body{
+    background: grey;
+}
+video {
+    width: 640px;
+    border: 2px solid #444;
+    border-radius: 8px;
+}
+.container {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial sans-serif;
+    font-style: italic;
+}
+
+</style>
+</head>
+<body>
+    <vedio autoplay>
+        <source src="https://jumpshare.com/embed/87UDosK0WUJsIZ2Z16fk" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" type="vedio/mp4">
+        <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe id="js_video_iframe" src="https://jumpshare.com/embed/87UDosK0WUJsIZ2Z16fk" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    </vedio>
+    <div class="container">
+        <p> This browser doesn't work the vedio sound.</p>
+    </div>
+</body>
+</html>
